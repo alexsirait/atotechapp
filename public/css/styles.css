@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-logo {
+    filter: invert(100%) grayscale(100%) brightness(10000%);
+}
+
+.navbar-nav{
+    --bs-nav-link-color: #fff !important;
+    --bs-nav-link-hover-color: #cbcbcb !important;
+    --bs-navbar-active-color: #B4B4B3 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #cbcbcb !important;
+}
+
+.nav-link:hover svg path {
+    fill: #cbcbcb !important;
+}
+.btn-custom {
+    transition: all 0.3s ease-in-out !important;
+}
+.btn-custom:hover {
+    background-color: #fff !important;
+    color: #BF3131 !important;
+    border-color: #BF3131 !important;
+}
+.btn-custom-2 {
+    transition: all 0.3s ease-in-out !important;
+}
+.btn-custom-2:hover {
+    background-color: #fff !important;
+    color: #a13636 !important;
+    border-color: #a13636 !important;
+}
+.divider-line {
+    width: 100%;
+    height: 3px;
+    background-color: #dddd; 
+    margin: 0 auto; 
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.milestones-line {
+    width: 100%;
+    height: 3px;
+    background-color: #dddd; 
+    margin: 0 auto; 
+    margin-block: 30px;
+}

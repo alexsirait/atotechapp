@@ -5,7 +5,7 @@
     <div class="container-fluid bg-danger">
         <div class="row d-flex justify-content-center align-items-center min-vh-100">
             <div class="col-lg-6">
-                <img src="{{ asset('img/user2.png') }}" width="800" alt="">
+                <img src="{{ asset('img/user3.png') }}" width="500" alt="">
             </div>
             <div class="col-lg-4">
                 <div class="card shadow border-0" style="border-radius: 15px;">
