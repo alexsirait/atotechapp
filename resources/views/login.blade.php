@@ -58,7 +58,7 @@
             dataType: "JSON",
             success: function (RES) {
                 if (RES == "SUCCESS") {
-                    window.location.href = "/";
+                    window.location.href = "/index";
                 } else {
                     showMessage('error', 'Gagal masuk!');
                 }

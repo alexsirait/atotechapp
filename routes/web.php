@@ -3,7 +3,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MasterDataController;
-Route::get('/start', [DashboardController::class, 'index'])->name('index');
+Route::get('/index', [DashboardController::class, 'index'])->name('index');
 Route::get('/', [DashboardController::class, 'start'])->name('start');
 Route::get('/masterdata', [MasterDataController::class, 'masterdata'])->name('masterdata');
 Route::get('/showBarang', [MasterDataController::class, 'showBarang'])->name('showBarang');
