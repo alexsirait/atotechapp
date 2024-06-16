@@ -90,7 +90,7 @@
             </div>
             <ul class="sub_menu">
                 <li><a class="link_name {{ request()->routeIs('index') ? 'text-danger' : '' }}" href="javascript:void(0)">Analisis Data</a></li>
-                <li><a class="fs-6 {{ request()->routeIs('index') ? 'text-danger' : '' }}" href="/">Analisis Data</a></li>
+                <li><a class="fs-6 {{ request()->routeIs('index') ? 'text-danger' : '' }}" href="/index">Analisis Data</a></li>
             </ul>
         </li>
         <li class="mt-4">

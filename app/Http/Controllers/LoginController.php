@@ -11,7 +11,7 @@ class LoginController extends Controller
         if (!$sessionLogin) {
             return view('login');
         } else {
-            return redirect('/');
+            return redirect('/index');
         }
     }
     public function register()
